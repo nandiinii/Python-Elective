@@ -1,0 +1,6 @@
+num=input("Enter the two digit hexadecimal value:")
+n=int(num,16)
+binVal=bin(n)
+print(binVal)
+decVal=int(binVal,2)
+print(decVal)

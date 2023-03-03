@@ -1,0 +1,10 @@
+import math
+print("Write the values of a,b,c in equation ax^2+bx+c")
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+d = b**2-(4*a*c)
+temp = math.sqrt(d)
+soln1= (-b + temp)/(2*a)
+soln2= (-b - temp)/(2*a)
+print("The solutions are {:.2f} and {:.2f}".format(soln1,soln2))

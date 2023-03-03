@@ -1,0 +1,5 @@
+num = input("Enter the number in binary form:")
+n=int(num,2)
+binVal=bin(n)
+decVal = int(binVal,2)
+print("The decimal value is {}".format(decVal))

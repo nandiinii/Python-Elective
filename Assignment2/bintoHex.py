@@ -1,0 +1,6 @@
+n = input("Enter the 8 bit binary number:")
+num=int(n,2)
+binVal=bin(num)
+decVal=int(binVal,2)
+hexVal=hex(decVal)
+print(hexVal)

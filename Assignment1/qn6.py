@@ -1,0 +1,7 @@
+num = int(input("Enter the number"))
+hex_value = hex(num)
+bin_value = bin(num)
+oct_value = oct(num)
+print("The hexadecimal value is {}".format(hex_value))
+print("The octal value is {}".format(oct_value))
+print("The binary value is {}".format(bin_value))
