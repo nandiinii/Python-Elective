@@ -1,5 +1,5 @@
 from math import *
-str="Python Programming by Nandini"
+str="Python Programming by Adam oommen jacob"
 print(str[-4:])
 print(str[4:9])
 print("Length is {},min value is {} and max value is {}".format(len(str),min(str),max(str)))
