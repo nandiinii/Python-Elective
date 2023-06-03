@@ -11,4 +11,14 @@ for i in range(len(str)):
         val=y+97
         str1 = str1+chr(val)
 print(str1)
-
+str1=input("enter the string to decrypt it: ")
+str2=""
+for i in range(len(str)):
+    if(str1[i]==" "):
+        str2 = str2+" "
+    else:
+        x=ord(str1[i])-97
+        y=(x-key)%26
+        val=y+97
+        str2 = str2+chr(val)
+print(str2)

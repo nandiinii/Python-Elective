@@ -7,4 +7,4 @@ n=int(input('Enter n: '))
 print('nth fibonacci term: ',fib(n-1))
 print("Fibonacci series")
 for i in range(n):
-    print(fib(i))
+    print(fib(i),end=' ')
