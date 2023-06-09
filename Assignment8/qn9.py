@@ -1,7 +1,7 @@
 import turtle 
 t = turtle.Turtle()
 t.pensize(5)
-t.fillcolor("red")
+t.fillcolor("pu")
 t.begin_fill()
 for i in range(6):
    t.forward(100) 
